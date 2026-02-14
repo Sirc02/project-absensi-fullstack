@@ -12,7 +12,6 @@
     "seed": "node prisma/seed.js"
   },
   "dependencies": {
-    "@prisma/client": "^6.19.2",
     "bcrypt": "^6.0.0",
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
@@ -24,8 +23,11 @@
     "jsonwebtoken": "^9.0.2",
     "multer": "^2.0.2",
     "nodemon": "^3.1.10",
-    "prisma": "^6.16.3",
     "puppeteer": "^24.35.0",
     "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@prisma/client": "5.22.0",
+    "prisma": "5.22.0"
   }
 }
