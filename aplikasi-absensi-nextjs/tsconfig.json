@@ -36,7 +36,7 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "app/layout.tsx",
-    "app/page.tsx",
+    "app/page.jsx",
     "app/api/auth.js",
     "proxy.js"
   ],
